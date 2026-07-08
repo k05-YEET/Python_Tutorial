@@ -10,7 +10,9 @@ Hier gibt es keine Aufgabe mehr. Die Welt ist jetzt deine Aufgabe.
 
 Hast du einen Anwendungsfall für Python? Dann ist das deine Aufgabe. Gehe dahin, Soldat.
 
-![So ready for weekend.](.attachments.32123355/image.png)
+<img width="875" height="595" alt="image" src="https://github.com/user-attachments/assets/b87a9c3b-6624-440d-b2ec-868be03f4e5c" />
+
+(Bildquelle: [pt.memedroid.com](https://pt.memedroid.com/memes/detail/3953834/SQL-PYTHON-DATAFRAME))
 
 ## Zusammengefasst…
 
@@ -517,22 +519,21 @@ Mit etwas Übung wirst du viele Fehler schon erkennen, bevor du das Programm sta
 
 ### Die 10 wichtigsten Regeln
 
-✅ Wähle aussagekräftige Variablennamen.
+Hier eine Checklist, die dir am Anfang helfen kann
 
-✅ Halte Funktionen klein.
+Ich habe:  
+- [ ] Aussagekräftige Variablennamen  
+- [ ] Funktionen klein gehalten  
+- [ ] Doppelten Code vermieden  
+- [ ] Einrückungen korrekt genutzt  
+- [ ] Einen Debugger genutzt (keine print() Statements für Troubleshooting im Code)  
+- [ ] Erwartbare Fehler mit `try / except` abgefangen  
+- [ ] Mir Fehlermeldungen aufmerksam durchgelesen und auf die Fehler korrekt reagiert  
 
-✅ Vermeide doppelten Code.
+Mein Code ist:
+- [ ] Gut lesbar  
+- [ ] Getestet, auch mit Fällen die zu Fehler führen könnten  
 
-✅ Nutze Einrückungen korrekt.
+Falls du das alles drinnen hast ist jetzt nur mehr Üben wichtig.
 
-✅ Schreibe gut lesbaren Code.
-
-✅ Verwende den Debugger.
-
-✅ Lies Fehlermeldungen aufmerksam.
-
-✅ Teste dein Programm regelmäßig.
-
-✅ Fange nur erwartbare Fehler mit `try/except` ab.
-
-✅ Programmieren lernt man durch Übung.
+Immerhin kann man auch keine Schlangen über nacht zähmen - noch viel weniger eine Python.
