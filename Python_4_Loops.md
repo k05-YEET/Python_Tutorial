@@ -2,7 +2,7 @@
 
 > “Not all chains are metal. Not all cages have locks.” - N. von Wolf, The Chain Loop
 
-Schleifen (oder Loops) sind in der Programmierung Kontrollstrukturen. In ihnen können Codeblöcke wiederholt ausgeführt werden, Zeit abgewartet werden, gezählt werden und so weiter.
+Schleifen (oder [Loops](https://www.w3schools.com/Python/python_for_loops.asp)) sind in der Programmierung Kontrollstrukturen. In ihnen können Codeblöcke wiederholt ausgeführt werden, Zeit abgewartet werden, gezählt werden und so weiter.
 
 Man verwendet sie um Aufgaben zu wiederholen, bis eine festgelegte Bedingung für einen Abbruch erfüllt wurde.
 
