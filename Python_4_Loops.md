@@ -30,10 +30,8 @@ Die For-Schleife ist dafür gedacht über eine Variable zu “[iterieren](https:
 
 Das klingt erstmal kompliziert… also nochmal kurz gefasst:
 
-::: info
-“Eine For-Schleife in Python wird verwendet, um eine Sequenz (wie eine Liste, ein Tupel oder einen String) Element für Element zu durchlaufen. Für jeden Eintrag wird der definierte Code-Block einmal ausgeführt, was sich ideal zur Automatisierung wiederkehrender Aufgaben eignet.” - Definition laut [IONOS.at](https://www.ionos.at/digitalguide/websites/web-entwicklung/for-loop-in-python/)
-
-:::
+> [!NOTE]
+> “Eine For-Schleife in Python wird verwendet, um eine Sequenz (wie eine Liste, ein Tupel oder einen String) Element für Element zu durchlaufen. Für jeden Eintrag wird der definierte Code-Block einmal ausgeführt, was sich ideal zur Automatisierung wiederkehrender Aufgaben eignet.” - Definition laut [IONOS.at](https://www.ionos.at/digitalguide/websites/web-entwicklung/for-loop-in-python/)
 
 Aber das versteht man besser wenn man sich einen Code dazu anschaut. Es gibt mehrere Arten eine For-Schleife zu verwenden:
 
