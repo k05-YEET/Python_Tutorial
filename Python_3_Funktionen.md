@@ -109,12 +109,11 @@ def addition(a, b):
 
 So rufst du sie dann auf:
 
-```python
-ergebnis = addition(2, 5)
-print("2 Plus 5 ergibt:", ergebnis)
-
+```python  
 def addition(a, b):
 			return a + b # Man kann auch einen Befehl statt eine Variabel zurück geben
+ergebnis = addition(2, 5)
+print("2 Plus 5 ergibt:", ergebnis)
 ```
 
 ## Wann machen Funktionen auch wirklich Sinn?
