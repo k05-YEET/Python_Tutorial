@@ -19,7 +19,7 @@ Die Markdown Files orientieren sich nach 10 Modulen, jedes könnte man je nach d
 
 ### Code Lösungen
 
-Da jedes Markdown File in diesem Repository unter [Tutorial_Files](./Tutorial_Files/) jeweils mindestens eine Aufgabe zum festigen des gewonnen Wissens, sowie zur Übung und Wiederholung, besitzt, gibt es den Ordner [Code_Lösungen](./Code_Lösungen/).
+Da jedes Markdown File in diesem Repository unter [Tutorial_Files](./Tutorial_Files/) jeweils mindestens eine Aufgabe zum festigen des gewonnen Wissens, sowie zur Übung und Wiederholung, besitzt, gibt es den Ordner [Code_Lösungen](./Python_Coding_Lösungen/).
 
 Dieser Code ist nur eine von vielen Möglichkeiten, wurde aber getestet (auf Windows 11 sowie Ubuntu 25.10 (Stand Juli 2026)) auf Funktionalität sowie auf die Ziele in den Aufgaben, die erfüllt werden sollten. Als IDE wurde beidesmal VS Code verwendet und Python 3.12.3 aufwärts.
 
