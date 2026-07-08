@@ -64,6 +64,53 @@ else:
    print("a ist alles andere als 4. Ich werde ausgegeben.")
 ```
 
+### 4) [Match - Case](https://www.geeksforgeeks.org/python/python-match-case-statement/)  
+
+Etwas fortgeschrittener in der Anwendung, in der Funktionsweise etwas anders als if und elifs.
+
+Ein Match Statement sieht von der Schreibweise her so aus:  
+```Python
+match expression:
+  case x:
+    code block
+  case y:
+    code block
+  case z:
+    code block
+```
+
+Ausgefüllt könnte das so ausschauen:  
+```Python
+tag = 7
+match tag:
+  case 6:
+    print("Wochenende! Endlich feiern.")
+  case 7: 
+    print("Wochenende aber morgen wieder Programm.")
+  case _:
+    print("Wochentag.")
+```
+Fällt dir daran etwas auf?  
+In den Match - Case Statements befindet sich in der letzten position einfach nur ein `_`. Das nennt man in diesem Fall ["Default Value"](https://www.w3schools.com/python/python_match.asp#:~:text=Try%20it%20Yourself%20%C2%BB-,Default%20Value,-Use%20the%20underscore), dieser Fall wird dann ausgeführt wenn keiner der darübrigen Überprüfung mit der abgefragten Variable übereinstimmen.
+
+Auch ist es möglich, ein IF Statement in einer solchen Abfrage zu verwenden.
+
+```Python
+monat = 5
+tag = 4
+match tag:
+  case 1 | 2 | 3 | 4 | 5 if monat == 4:
+    print("Ein Wochentag im April.")
+  case 1 | 2 | 3 | 4 | 5 if monat == 5:
+    print("Ein Wochentag im Mai.")
+  case _:
+    print("No match")
+```
+
+#### Aufgabe - Üben  
+
+Um das gelernte über Match - Case zu festigen mache Folgendes Quiz: https://www.w3schools.com/python/python_match.asp#:~:text=Try%20it%20Yourself%20%C2%BB-,Exercise,-%3F
+
 ## Aufgabe
 
 Schreibe ein Programm, das den Ticketpreis für ein Kino berechnet. Das Programm soll das Alter einer Person prüfen und den passenden Preis ausgeben.
