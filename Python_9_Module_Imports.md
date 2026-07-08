@@ -4,13 +4,24 @@ Warum etwas machen, wenn es wer anderer schon vor dir besser gemacht hat?
 
 Auch wenn es viele Entwickler gibt, die selbst Bibliotheken schreiben und diesen dann Leuten zu Verfügung stellen. Aber mal ehrlich, da sind wir noch lange nicht.
 
-## Was ist ein “Modul”?
+### Was ist ein “Modul”?
 
-![Quelle: https://ipcisco.com/wp-content/uploads/2021/04/python-modules-ipcisco-1.jpg](.attachments.32123334/image.png)
+<img width="540" height="540" alt="image" src="https://github.com/user-attachments/assets/d7850395-eab2-4302-b9d7-395f3e01b706" />
+
+(Bidlquelle: [ipisco.com](https://ipcisco.com/wp-content/uploads/2021/04/python-modules-ipcisco-1.jpg))
 
 Ein [Modul](http://py-tutorial-de.readthedocs.io/de/python-3.3/modules.html) ist eine Python-Datei mit [Funktionen](https://www.python-lernen.de/funktionen-in-python.htm), [Klassen](http://py-tutorial-de.readthedocs.io/de/python-3.3/classes.html) oder [Variablen](https://www.w3schools.com/python/python_variables.asp), die wir in unserem eigenem Programm verwenden können.
 
 Es spart dir Zeit und ermöglicht es dir, dich auf das Wesentliche zu fokussieren.
+
+> [!TIP]
+> Falls du alle Module im Überblick haben willst kannst du dir folgende Liste ansehen: [docs.python.org](https://docs.python.org/3/py-modindex.html)
+
+### Aber sind Modules und [Libraries](https://www.geeksforgeeks.org/python/libraries-in-python/) dann nicht das gleiche?
+
+Nein. Man kann sich den Vergleich so vorstellen:
+- Module: Die Bausteine, ein File
+- Library: Liefern Bausteine (Module) / Funktionen / Packages / existierenden Code, ein Repository (= ähnlich wie ein Projektordner). D.h.: Mehr als nur ein File
 
 ## Was bedeutet “[import](https://docs.python.org/3/reference/import.html)”?
 
@@ -18,7 +29,7 @@ Es spart dir Zeit und ermöglicht es dir, dich auf das Wesentliche zu fokussiere
 
 Dafür muss dieses Modul nicht unbedingt vorinstalliert sein.
 
-So schaut es bspw. aus, wenn man das Modul “[math](https://docs.python.org/3/library/math.html)” für fortgeschrittene Matheoperationen importieren will:
+So schaut es bspw. aus, wenn man ein Modul aus Mathe Library “[math](https://docs.python.org/3/library/math.html)” für fortgeschrittene Matheoperationen importieren will:
 
 ```python
 import math
