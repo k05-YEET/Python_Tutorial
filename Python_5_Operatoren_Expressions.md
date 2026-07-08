@@ -2,7 +2,7 @@
 
 ### Expressionen
 
-**Was ist eine “Expression”?** Etwas, dass einen Wert ergibt.
+**Was ist eine “[Expression](https://docs.python.org/3/reference/expressions.html#)”?** Stark vereinfacht: Etwas, dass einen Wert ergibt.
 
 Im Endeffekt ist alles, was einer Variabel oder Ähnlichem übergeben wird, eine Expression.
 
@@ -22,7 +22,7 @@ Das ist ein Fachbegriff und in der Regel nicht wichtig für die tägliche Verwen
 
 ### Operatoren
 
-Das sind Zeichen, oder Schlüsselwörter, mit denen man Berechnungen oder Operationen an Variablen vornehmen kann.
+[Operatoren](https://www.ionos.at/digitalguide/websites/web-entwicklung/python-operatoren/) sind Zeichen, oder Schlüsselwörter, mit denen man Berechnungen oder Operationen an Variablen vornehmen kann.
 
 Insgesamt gibt es 6 Operatoren in Python.
 
@@ -130,9 +130,9 @@ Gib anschließen folgendes aus:
 1) Gesamtstärke = Angriff + Verteidigung
 2) Unterschied = Angriff - Verteidigung
 3) Kampfkraft = Angriff * Verteidigung
-4) Angriff geteilt durch Verteidigung
-5) Rest von Angriff % Verteidigung
-5) Angriff hoch 2
+4) Division = Angriff geteilt durch Verteidigung
+5) Rest = Rest von Angriff % Verteidigung
+6) Anrgiff² = Angriff hoch 2
 
 Überprüfe:
 --> Ist Angriff größer als Verteidigung?
