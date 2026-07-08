@@ -24,28 +24,24 @@ Im besten Fall muss man nicht angeben, welchen Datentyp man für was haben will.
 
 Manche Datentypen sind aufgrund von ihrer Struktur und ihrem Aufbau nur bis zu einem gewissen Wert fähig, Zahlenwerte zu speichern. Bei einem Integer beispielsweise gibt es eine Range von -2147483648 bis 2147383648.
 
-::: info
-Warum diese Zahlen?  
-Integer setzen sich auf einer Mathematischen Ebene folgenderweise zusammen:
+> [!NOTE]
+> Warum diese Zahlen?  
+> Integer setzen sich auf einer Mathematischen Ebene folgenderweise zusammen:
+>
+> 2³² = 4.294.957.296
+>
+> Wenn man das durch 2 teilt (da man negative Zahlen ebenfalls darstellen will) kommt man auf die 2147… Werte.
+>
+> Die 32 steht hier für die Anzahl der Bits, die jeweils 0 oder 1 darstellen können alleine.
 
-2³² = 4.294.957.296
-
-Wenn man das durch 2 teilt (da man negative Zahlen ebenfalls darstellen will) kommt man auf die 2147… Werte.
-
-Die 32 steht hier für die Anzahl der Bits, die jeweils 0 oder 1 darstellen können alleine.
-
-:::
-
-::: info
-Falls dich die Struktur von Datentypen auf einem tieferen Level (Binär Ebene) interessiert kannst du hier mehr dazu lesen:
-
-<https://exercism.org/tracks/python/concepts/binary-octal-hexadecimal>
-
-… oder wie eine Binärdarstellung funktioniert:
-
-<https://youtu.be/ruolmC7dbj8?si=AIw4nJgSfz9os1nd>
-
-:::
+> [!NOTE] 
+> Falls dich die Struktur von Datentypen auf einem tieferen Level (Binär Ebene) interessiert kannst du hier mehr dazu lesen:
+>
+> <https://exercism.org/tracks/python/concepts/binary-octal-hexadecimal>
+>
+> … oder wie eine Binärdarstellung funktioniert:
+>
+> <https://youtu.be/ruolmC7dbj8?si=AIw4nJgSfz9os1nd>
 
 Ein Überblick zu den wichtigsten Datentypen die du kennen solltest in dieser Sprache:
 
@@ -53,26 +49,23 @@ Ein Überblick zu den wichtigsten Datentypen die du kennen solltest in dieser Sp
 |---------------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------|-------------------------|
 | [int](https://www.w3schools.com/python/python_numbers.asp#:~:text=Try%20it%20Yourself%20%C2%BB-,Int,-Int%2C%20or%20integer)           | Integer    | Ganze Zahlen                                                                               | x = 5                   |
 | [float](https://www.w3schools.com/python/python_numbers.asp#:~:text=Try%20it%20Yourself%20%C2%BB-,Float,-Float%2C%20or%20%22floating) | Float      | Fließkommazahlen (Dezimalzahlen mit Punkt)                                                 | pi = 3.14               |
-| [str](https://www.w3schools.com/python/python_strings.asp#:~:text=Next%20%E2%9D%AF-,Strings,-Strings%20in%20python)                   | String     | Zeichenkete, Text in Anführungszeichen                                                     | text = “Yo, ich code”   | \
-|                                                                                                                                       |            | Du kannst hier auch nur einen Buchstaben abspeichern - Python hat keinen “char” Datentypen |                         |
+| [str](https://www.w3schools.com/python/python_strings.asp#:~:text=Next%20%E2%9D%AF-,Strings,-Strings%20in%20python)                   | String     | Zeichenkete, Text in Anführungszeichen. Du kannst hier auch nur einen Buchstaben abspeichern - Python hat keinen “char” Datentypen                                                     | text = “Yo, ich code”   | \
 | [bool](https://www.w3schools.com/python/python_booleans.asp)                                                                          | Boolean    | Wahrheitswerte, True or False, 1 oder 0                                                    | ist_valide = True       |
 | [list](https://www.w3schools.com/python/python_lists.asp)                                                                             | Listen     | Veränderbare, geordnete Liste                                                              | liste = \[1, 2, 3\]     |
 | [tuple](https://www.w3schools.com/python/python_tuples.asp)                                                                           | Tupels     | Unveränderbare, geordnete Liste                                                            | tupel = (1, 2, 3)       |
 | [set](https://www.w3schools.com/python/python_sets.asp)                                                                               | Sets       | Ungeordnete Menge, keine Duplikate                                                         | menge = {1, 2, 3}       |
 | [dict](https://www.w3schools.com/python/python_dictionaries.asp)                                                                      | Dictionary | Wörterbuch, Schlüssel-Wert Paare                                                           | dict = {“name”: “Igor”} |
 
-::: info
-Fällt dir bei der Gleitkommadarstellung bei Floats etwas auf?
-
-In Python wird ein Komma bei einer Zahl (z.B.: 2,3 = zweikommadrei) mit einem Punkt angegeben.
-
-Das ist in anderen Programmiersprachen ähnlich, da man eine Kommazahl unbedingt von einem Argument, dass man bspw. wie bei der list angeben würde in einer Klammer, unterscheiden können muss.
-
-Du wirst hier den Fehler öfters machen, wenn du es noch nicht gewohnt bist.
-
-Das ist okay. Aller Anfang ist schwer.
-
-:::
+> [!NOTE]
+> Fällt dir bei der Gleitkommadarstellung bei Floats etwas auf?
+>
+> In Python wird ein Komma bei einer Zahl (z.B.: 2,3 = zweikommadrei) mit einem Punkt angegeben.
+>
+> Das ist in anderen Programmiersprachen ähnlich, da man eine Kommazahl unbedingt von einem Argument, dass man bspw. wie bei der list angeben würde in einer Klammer, unterscheiden können muss.
+>
+> Du wirst hier den Fehler öfters machen, wenn du es noch nicht gewohnt bist.
+>
+> Das ist okay. Aller Anfang ist schwer.
 
 Nun gut… jetzt kennst du das einmal in der Theorie. Aber wo muss man die angeben?
 
@@ -187,12 +180,10 @@ print(ergebnis)
 
 Das sollte dann “2” ausgeben.
 
-::: info
-Funfact!
-
-Divisionen funktionieren auf Prozessor-Ebene nicht wie wir es im Kopf rechnen. Da die Architektur mit seinem System damit Probleme haben rechnet der Computer eigentlich etwas komplett anderes als 10 durch 5 in unserem Dezimalsystem.
-
-:::
+> [!NOTE]
+> Funfact!
+>
+> Divisionen funktionieren auf Prozessor-Ebene nicht wie wir es im Kopf rechnen. Da die Architektur mit seinem System damit Probleme haben rechnet der Computer eigentlich etwas komplett anderes als 10 durch 5 in unserem Dezimalsystem.
 
 #### Fortgeschrittene Operationen
 
