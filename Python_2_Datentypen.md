@@ -12,7 +12,7 @@ Dafür gibt es eine Art Templates, die man verwenden kann:
 
 <img width="559" height="358" alt="image" src="https://github.com/user-attachments/assets/3e6b3374-93aa-4a4a-b590-c3a1aca282e5" />  
 
-Datenstrukturhierarchie  (Bildquelle: [techtarget.com](https://www.techtarget.com/rms/German/Datenstrukturhierarchie-deutsch-f_mobile.png)  
+Datenstrukturhierarchie  (Bildquelle: [techtarget.com](https://www.techtarget.com/rms/German/Datenstrukturhierarchie-deutsch-f_mobile.png))  
 
 Jeder Datentyp hat seinen Nutzen und eigenen Anwendungsfall und variiert bei Definition von Programmiersprache zu Programmiersprache.
 
