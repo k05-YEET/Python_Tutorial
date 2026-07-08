@@ -48,7 +48,8 @@ except:
 
 Wenn der try hier jetzt schief geht oder einen Fehler generiert:
 
-![Output](.attachments.32123307/image.png)
+Output:  
+<img width="437" height="131" alt="image" src="https://github.com/user-attachments/assets/71259c8e-6aee-483f-8f6c-4655c95ddf7d" />
 
 … wird das ganze clean abgefangen und man kann den Fehler so behandeln als hätte man ihn kommen sehen.
 
@@ -92,10 +93,8 @@ else:
     print("Eingegeben:", zahl)
 ```
 
-::: info
-Else wird nur DANN ausgeführt, wenn try fehlgeschlagen und except nicht durch den exakten Fehler “ValueError” ausgelöst wurde.
-
-:::
+> [!IMPORTANT]
+> Else wird nur DANN ausgeführt, wenn try fehlgeschlagen und except nicht durch den exakten Fehler “ValueError” ausgelöst wurde.
 
 ### [finally](https://www.w3schools.com/python/ref_keyword_finally.asp)
 
@@ -116,7 +115,9 @@ finally:
 
 Das wars, du arbeitest doch beim MacDonalds. Python zu programmieren war zu schwer.
 
-![... oder Python.](.attachments.32123307/image%20%282%29.png)
+<img width="1438" height="1049" alt="image (2)" src="https://github.com/user-attachments/assets/e47ee156-4f84-41c6-a2d6-00d409310076" />  
+
+(↑ ... oder Python, Bildquelle: [reddit.com](https://www.google.com/imgres?q=mcdonalds%20sad%20meme&imgurl=https%3A%2F%2Fi.redd.it%2Fvmjxvet3sqz81.jpg&imgrefurl=https%3A%2F%2Fwww.reddit.com%2Fr%2Fme_irl%2Fcomments%2Fuqkncx%2Fme_irl%2F&docid=Z1BEkRBokzOhmM&tbnid=Dci0D9Hxuo_TuM&vet=12ahUKEwjIzMaezsKVAxVx9AIHHR78E38QnPAOegQIRRAA..i&w=1438&h=1049&hcb=2&ved=2ahUKEwjIzMaezsKVAxVx9AIHHR78E38QnPAOegQIRRAA))
 
 Allerdings geht dir das Eintippen von jedem Menü schon echt auf den Zeiger, und die Selbstbedien-Portale sind außer Betrieb. Deswegen hast du dir vorgenommen, etwas Arbeitszeitbetrug durchzuführen um ~~dir selbst~~ deinem wunderbaren Arbeitgeber zu helfen.
 
