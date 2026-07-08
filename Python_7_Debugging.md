@@ -14,10 +14,16 @@ Das bedeutet:
 
 “Aber hey, das geht eh alles mit print() Befehlen” - Ja, nein. Nein nein.
 
-!["I use print() statements btw"](.attachments.32123266/image.png)
+<img width="860" height="596" alt="image" src="https://github.com/user-attachments/assets/625d13bd-7910-4fde-a660-698ad286edc7" />    
+
+"I use print() statements btw" (Bildquelle: [reddit.com](https://www.reddit.com/r/ProgrammerHumor/comments/op764d/print_breakpoints/))  
 
 Naja gut, wenn man es *unbedingt* will...  
 Auch wenn das für kleine Programme gut funktionieren kann tut es im Normalfall GAR nicht bei Programmen, die mehr als eine Funktion besitzen oder ganze Klassen.
+
+> [!TIP]
+> Wenn du doch vor hast `print()`-Statements stattdessen zu benutzen vergesse es nicht, diese wieder auszukommentieren bevor man den Code veröffentlicht / jemanden zeigt / in die Produktion einsetzt.  
+> Ein vollgemülltes Server-Output File im Terminal kann schnell peinlich werden.
 
 Dafür gibt es bessere Methoden die wir jetzt gemeinsam besprechen!
 
@@ -31,7 +37,9 @@ Das macht man indem man neben der Zeilennummer einen roten Punkt setzt.
 2. Links neben der Zeile 1x klicken
 3. Es erscheint ein roter Punkt
 
-![Das sollte dann so aussehen](.attachments.32123266/image%20%282%29.png)
+<img width="548" height="188" alt="image (2)" src="https://github.com/user-attachments/assets/0a58d087-627d-4be7-b3db-366d82a11c49" />  
+
+↑ Das sollte dann so aussehen.
 
 Wenn der rote Punkt erreicht wurde, bricht in dieser Zeile das Programm ab.
 
@@ -64,14 +72,13 @@ Manchmal verliert man den Überblick wie ein Programm überhaupt abläuft. Und d
 
 Dafür gibt es eine Funktion in VS Code die dich einen Code Zeile für Zeile ausführen lässt.
 
-![Breakpoint - Schritt für Schritt](.attachments.32123266/image%20%283%29.png)
+<img width="900" height="188" alt="image (3)" src="https://github.com/user-attachments/assets/b46dd4e8-43dd-460e-82b1-9d1ef9ed8fe7" />
 
-::: info
-Der Debugger wird immer dort anhalten, wo dein Breakpoint gesetzt wurde.
+> [!IMPORTANT]
+> Der Debugger wird immer dort anhalten, wo dein Breakpoint gesetzt wurde.
 
-:::
-
-Von dort aus kannst du dann über die Pfeile im Menü (oder bspw. über F10) einen Schritt vor, zurücl und über Codeblöcke springen. Mit F11 kann man auch in eine Funktion hineinspringen um zu sehen, was dort so abgeht.
+Von dort aus kannst du dann über die Pfeile im Menü (oder bspw. über F10) einen Schritt vor, in Funktionen hinein / hinaus und über Codeblöcke springen. Mit F11 kann man auch in eine Funktion hineinspringen um zu sehen, was dort so abgeht.  
+Variablen, die du geschaffen hast findest du im Grund unter den `special variables` Tab auf der Seite.  
 
 ## Variablen beobachten
 
