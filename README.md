@@ -6,7 +6,7 @@ English translation has not been made. English README.md under: [README.en.md](.
 
 ---
 
-Jegliche Materialien in diesem Kurs sind von Hand erstellt und für einen Python Einstieger Kurs geeignet. Die Zieldemographik des Schreibstils sowie der Inhalt orientiert sich an eine jüngere Generation (16-20 Jahre) und ist daher nicht als rein professionell anzusehen.
+Jegliche Materialien in diesem Kurs sind von Hand erstellt und für einen Python Einstiegskurs geeignet. Die Zieldemografie des Schreibstils sowie der Inhalt orientiert sich an einer jüngeren Generation (16-20 Jahre) und ist daher nicht als rein professionell anzusehen.
 
 ### Kursmaterialien
 
@@ -25,7 +25,7 @@ Dieser Code ist nur eine von vielen Möglichkeiten, wurde aber getestet (auf Win
 
 ### Außer-Repository Unterlagen
 
-Es gibt zur kleinen Wiederholung ein erstelltes Kahoot Quiz, dass sich an die Lektionen im Kurs haltet.
+Es gibt zur kleinen Wiederholung zwei erstelltes Kahoot Quizzes, die sich an die Lektionen im Kurs halten.
 
 Nach den ersten fünf Modulen: [Kahoot 1. Quiz](https://create.kahoot.it/share/python-beginner-quiz/9fa6511a-8bfa-410a-9820-d68bf4828b16)  
 Nach allen Modulen (bspw.: vor oder nach Übung 10): [Kahoot 2. Quiz](https://create.kahoot.it/share/python-basics-advanced/5cd6db30-8e0d-40a8-bf8d-faf09652e6b5)
